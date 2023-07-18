@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <form action="" id="form-login">
+            <h1 class="form-heading">Đăng Ký</h1>
+            <div class="form-group"><i class="far fa-user"></i><input type="text" class="form-input" placeholder="Số điện thoại"></div>
+            <div class="form-group"><i class="fas fa-envelope" aria-hidden="true"></i><input type="text" class="form-input" placeholder="Email"></div>
+            <div class="form-group"><i class="fas fa-key"></i><input type="password" class="form-input" placeholder="Mật khẩu">
+                <div id="eye"><i class="far fa-eye"></i><br></div>
+            </div>
+            <div class="form-group"><i class="fas fa-key"></i><input type="password" class="form-input" placeholder="Nhập lại mật khẩu">
+                <div id="eye"><i class="far fa-eye"></i><br></div>
+            </div><form id="login-form">
+                <!-- Các trường đăng nhập khác (nếu có) -->
+                <input type="button" value="Đăng ký" class="form-submit" onclick="redirectToOtherPage()">
+            </form>
+            <script>
+                // Hàm xử lý sự kiện click khi nhấn vào nút "Đăng nhập"
+                function redirectToOtherPage() {
+                    // Chuyển hướng sang trang web khác
+                    window.location.href = 'dangnhap.html';
+                    
+                    // Hoặc có thể sử dụng một đoạn code như dưới đây nếu bạn muốn mở trang web trong tab mới
+                    // window.open('duong-dan-cua-trang-mong-muon.html', '_blank');
+                }
+            </script>
+        </form><script>
+                // Hàm xử lý sự kiện click khi nhấn vào nút "Đăng nhập"
+                function redirectToOtherPage() {
+                    // Chuyển hướng sang trang web khác
+                    window.location.href = 'dangnhap.html';
+                    
+                    // Hoặc có thể sử dụng một đoạn code như dưới đây nếu bạn muốn mở trang web trong tab mới
+                    // window.open('duong-dan-cua-trang-mong-muon.html', '_blank');
+                }
+            </script>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
